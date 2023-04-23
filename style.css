@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.max-width {
+  width: 1070px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: #080b16;
+  color: white;
+}
+
+body>header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #202024;
+}
+
+body>header>div {
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 100px;
+}
+
+header>div>nav>ul {
+  width: 100%;
+  list-style: none;
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.display-navbar {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 10px;
+}
+
+.content {
+  position: absolute;
+  background: #202024;
+  padding: 16px;
+  border-radius: 9px;
+  width: max-content;
+}
+
+header>div>nav>button {
+  background: none;
+  border: none;
+}
+
+.link:active {
+  border: 1px solid grey;
+  border-radius: 9px;
+}
+
+header>div>nav>ul>.link {
+  font-size: 24px;
+  font-weight: 400;
+  color: #50c5d0;
+}
+
+header>div>h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+button>ion-icon {
+  display: flex;
+  font-size: 30px;
+  color: white;
+}
+
+main {
+  height: 100%;
+  margin: 0 auto;
+}
+
+main>section {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+main>section>header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+section>a {
+  height: 72px;
+  background-color: #202024;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+section>a:nth-child(2) {
+  background: linear-gradient(to right, #202024, black) no-repeat;
+}
+
+section>a:nth-child(3) {
+  background: linear-gradient(to right, #202024, #00b37E) no-repeat;
+}
+
+section>a:nth-child(4) {
+  background: url(https://devdanton.github.io/devlinks/src/assets/background-desktop-dark.jpg) center center/cover no-repeat;
+}
+
+section>a:nth-child(5) {
+  background: linear-gradient(to right, #202024, #462878) no-repeat;
+}
+
+
+section>a>img {
+  width: 50px;
+  border-radius: 9px;
+}
+
+.lista-horizontal-tec p {
+  font-size: 16px;
+}
+
+#curriculo a {
+  color: #50c5d0;
+}
+
+footer {
+  width: 100%;
+}
+
+footer>.social-media {
+  padding: 16px;
+  margin: auto;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  padding: 4px 4px;
+}
+
+.link:hover {
+  opacity: 0.5;
+  transition: all 0.2s;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 30px;
+}
+
+.social-media>a {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 8px;
+  border-radius: 999px;
+}
+
+.lista-horizontal-tec {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.lista-horizontal-tec>li>div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px
+}
+
+.lista-horizontal-tec>li>div>div {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width:600px) {
+  header>img {
+    width: 50px;
+  }
+
+  .social-media {
+    font-size: 20px;
+  }
+}

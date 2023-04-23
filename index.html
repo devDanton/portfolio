@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/77130559?v=4" type="image/x-icon">
+  <title>Portfólio - devDanton</title>
+</head>
+
+<body>
+  <header>
+    <div class="max-width">
+      <nav>
+        <button type="button" id="menu" onclick=turnMenu()>
+          <ion-icon class="link" name="menu-outline"></ion-icon>
+        </button>
+        <ul class="content">
+          <a class="link" href="#about-me">Sobre min</a>
+          <a class="link" href="#Tecnologies">Tecnologias</a>
+          <a class="link" href="#projects">Projectos</a>
+          <a class="link" href="#curriculo">Currículo</a>
+        </ul>
+      </nav>
+      <h2>DevDanton</h2>
+      <img src="https://avatars.githubusercontent.com/u/77130559?v=4" />
+    </div>
+  </header>
+
+  <main class="max-width">
+    <section id="about-me">
+      <header>
+        <h2>Sobre min</h2>
+      </header>
+      <p align="justify">Sou um profissional dedicado e comprometido com a entrega do produto final. Nos últimos seis
+        meses, busquei
+        especializar-me ainda mais em diversas tecnologias front-end para atender a demanda. A partir disso, por meio da
+        criação de projetos pessoais para portfólio com tecnologias como React, obtive imersão da importância da
+        reutilização de código para diversas aplicações. Também utilizei TypeScript como principal linguagem de
+        programação do back-end, essa salientou a importância da tipagem de dados para prevenção de erros. O framework
+        Vite proporcionou para minhas aplicações web um excelente ecossistema para codificação e ótimo gerenciamento
+        estrutural. Para modelagem do banco de dados destas aplicações utilizei o Prisma. Este é uma excelente
+        alternativa para criação das tabelas, já que tem uma sintaxe mais acessível. Proporciona maior segurança dos
+        tipos de preenchimento e o versionamento do banco de dados concede fácil acesso a versões anteriores. Através
+        destas especializações, coloquei em prática diversos projetos que podem ser encontrados em meu GitHub</p>
+    </section>
+
+    <section id="tecnologies">
+      <header>
+        <h2>Tecnologias</h2>
+      </header>
+
+      <ul class="lista-horizontal-tec">
+        <li class="link">
+          <div>
+            <div>
+              <img height="20" src="./src/assets/icons/html-1.svg" alt="logo html">
+            </div>
+            <p>HTML</p>
+          </div>
+        </li>
+        <li class="link">
+          <div>
+            <div>
+              <img height="20" src="./src/assets/icons/css-3.svg" alt="logo css">
+            </div>
+            <p>
+              CSS
+            </p>
+          </div>
+        </li>
+        <li class="link">
+          <div>
+            <div>
+              <img height="20" src="./src/assets/icons/tailwindcss.svg" alt="logo tailwindcss">
+            </div>
+            <p>
+              TailWindCSS
+            </p>
+          </div>
+        </li>
+        <li class="link">
+          <div>
+            <div>
+              <img height="20" src="./src/assets/icons/javascript-1.svg" alt="logo JavaScript">
+            </div>
+            <p>
+              JavaScript
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <div>
+              <img height="20" src="./src/assets/icons/typescript.svg" alt="logo typescript">
+            </div>
+            <p>
+              TypeScript
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <div>
+              <img height="20" src="./src/assets/icons/react-2.svg" alt="logo react">
+            </div>
+            <p>
+              React
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <div>
+              <img height="20" src="./src/assets/icons/react-native-1.svg" alt="logo react-native">
+            </div>
+            <p>
+              React Native
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <div>
+              <img height="20" src="./src/assets/icons/php-1.svg" alt="logo php">
+            </div>
+            <p>
+              PHP
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <div>
+              <img height="20" src="./src/assets/icons/postgresql.svg" alt="logo postgresql">
+            </div>
+            <p>
+              PostgreSQL
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <div>
+              <img height="20" src="./src/assets/icons/vitejs.svg" alt="logo vite">
+            </div>
+            <p>
+              Vite
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <header>
+        <h2>Projetos</h2>
+      </header>
+      <a class="link" href="https://github.com/devDanton/barber-app" target="_blank">
+        <img src="https://github.com/devDanton/barber-app/blob/main/assets/icon.png?raw=true" alt="logo barber app">
+        <div>
+          <span>Barber app</span>
+          <p>A aplicação para gerenciar em tempo real agendamentos para um barbeiro.</p>
+        </div>
+      </a>
+      <a class="link" href="https://github.com/devDanton/rocket-help" target="_blank">
+        <img src="https://github.com/devDanton/rocket-help/blob/main/src/assets/adaptive-icon.png?raw=true"
+          alt="logo rocket-help">
+        <div>
+          <span>Rocket Help</span>
+          <p>A aplicação para gerenciar em tempo real solicitações de manutenção e suporte a equipamentos.</p>
+        </div>
+      </a>
+      <a class="link" href="https://devdanton.github.io/devlinks/" target="_blank">
+        <img
+          src="https://raw.githubusercontent.com/devDanton/devlinks/5490d613dd410f676b736327f2989c0e98b95940/src/assets/link.svg"
+          alt="logo DevLinks">
+        <div>
+          <span>DevLinks</span>
+          <p>O DevLinks é um agregador de links para usar como cartão de visitas online.</p>
+        </div>
+      </a>
+      <a class="link" href="https://devdanton.github.io/calculator/" target="_blank">
+        <img
+          src="https://raw.githubusercontent.com/devDanton/calculator/48ae733761480602ea6cbb2212243367ecc46d54/src/assets/MathOperations.svg"
+          alt="logo barber app">
+        <span>Calculator</span>
+      </a>
+    </section>
+
+    <section id="curriculo">
+      <header>
+        <h2>Currículo</h2>
+      </header>
+      <span>Acesse o meu cv
+        <a class="link" href="https://drive.google.com/file/d/1nJlPZV8FJZfZGNukCDygyMVgeg0bK4VB/view?usp=share_link"
+          target="_blank">por aqui
+        </a>
+        .</span>
+      </span>
+      <p></p>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <div class="social-media max-width">
+      <a class="link" href="https://github.com/devDanton" class="link" target="_blank">
+        <ion-icon name="logo-github" role="img" class="md hydrated" aria-label="logo github">
+        </ion-icon>
+      </a>
+
+      <a class="link" href="https://www.linkedin.com/in/dantondarosa/" class="link" target="_blank">
+        <ion-icon name="logo-linkedin" role="img" class="md hydrated" aria-label="Linkedin">
+        </ion-icon>
+      </a>
+
+      <a class="link" href="https://www.instagram.com/devdanton/" class="link" target="_blank">
+        <ion-icon name="logo-instagram" role="img" class="md hydrated" aria-label="Instagram">
+        </ion-icon>
+      </a>
+
+      <a class="link" href="https://www.youtube.com/@devDanton" class="link" target="_blank">
+        <ion-icon name="logo-youtube" role="img" class="md hydrated" aria-label="Youtube">
+        </ion-icon>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
