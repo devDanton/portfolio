@@ -6,7 +6,7 @@
 }
 
 .max-width {
-  width: 1070px;
+  max-width: 1070px;
 }
 
 body {
@@ -26,6 +26,7 @@ body>header {
 }
 
 body>header>div {
+  width: 100%;
   padding: 8px 16px;
   display: flex;
   flex-direction: row;
