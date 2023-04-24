@@ -138,6 +138,18 @@ section>a:nth-child(5) {
   background: linear-gradient(to right, #202024, #462878) no-repeat;
 }
 
+section>a:nth-child(6) {
+  background: linear-gradient(to right, #271A45, #8257E5) no-repeat;
+}
+
+section>a:nth-child(7) {
+  background: linear-gradient(to right, #271A45, #07847e) no-repeat;
+}
+
+section>a:nth-child(8) {
+  background: linear-gradient(to right, #2a2141, #e1e1e6) no-repeat;
+}
+
 
 section>a>img {
   width: 50px;
@@ -150,6 +162,8 @@ section>a>img {
 
 #curriculo a {
   color: #50c5d0;
+  padding: 0;
+  border: none;
 }
 
 footer {
