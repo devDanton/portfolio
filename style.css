@@ -67,11 +67,6 @@ header>div>nav>button {
   border: none;
 }
 
-.link:active {
-  border: 1px solid grey;
-  border-radius: 9px;
-}
-
 header>div>nav>ul>.link {
   font-size: 24px;
   font-weight: 400;
@@ -186,6 +181,11 @@ footer>.social-media {
 .link:hover {
   opacity: 0.5;
   transition: all 0.2s;
+}
+
+.link:active {
+  border: 1px solid grey;
+  transform: translateY(5px);
 }
 
 .social-media {
